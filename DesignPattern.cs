@@ -12,8 +12,8 @@ namespace Jonas
 
             #region SRP 單一則責任原則 Single Responsibility Principle
             SRP.IPhone12s jonasIphone1 = new SRP.IPhone12s();
-            jonasIphone1.Phone.Dial("0987-878-878");
-            jonasIphone1.Massage.Send("0987-878-878", "0857");
+            jonasIphone1.Phone.Dial("0987-987-987");
+            jonasIphone1.Massage.Send("0987-987-987", "0857");
             #endregion
 
             #region DIP 依賴反轉原則 Dependency Inversion Principle
@@ -49,8 +49,8 @@ namespace Jonas
             #endregion
 
             #region LKP 最少知識原則 Least Knowledge Principle
-            List<LKP.Customer> customers = new List<LKP.Customer>() 
-            { 
+            List<LKP.Customer> customers = new List<LKP.Customer>()
+            {
                 new LKP.Customer(new LKP.Wallet(1000)),
                 new LKP.Customer(new LKP.Wallet(500)),
                 new LKP.Customer(new LKP.Wallet(10000)),
