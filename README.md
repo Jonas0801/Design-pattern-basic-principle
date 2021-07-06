@@ -1,6 +1,7 @@
 # Design-pattern-basic-principle
 <h1>設計模式, 基本7大原則</h1>
 <br>SRP 單一則責任原則 Single Responsibility Principle</br>
+一個類只負責一件事 且只有一個原因修改這個類
 <br>OCP 開放封閉原則 Open/Close Principle</br>
 <br>LSP 里氏替換原則 Liskov's Substitution Principle</br>
 <br>ISP 介面隔離原則 Interface Segregation Principle</br>
