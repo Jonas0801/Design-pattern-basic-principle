@@ -12,8 +12,8 @@ namespace Jonas
 
             #region SRP 單一則責任原則 Single Responsibility Principle
             SRP.IPhone12s jonasIphone1 = new SRP.IPhone12s();
-            jonasIphone1.Phone.Dial("0987-285-351");
-            jonasIphone1.Massage.Send("0987-285-351", "0857");
+            jonasIphone1.Phone.Dial("0987-878-878");
+            jonasIphone1.Massage.Send("0987-878-878", "0857");
             #endregion
 
             #region DIP 依賴反轉原則 Dependency Inversion Principle
